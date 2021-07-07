@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    display: flex;
+}
+.card{
+    margin: 30px;
+    width: 20%;
+    
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 7px 7px 10px gray;
+    
+}
+
+.image img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.dis{
+    text-align: center;
+   
+}
+button{
+    background-image: linear-gradient(blue,cornflowerblue);
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s; 
+    font-weight:800 ;   
+    border-radius: 5px;
+}
+.butn-1{
+    color:cornflowerblue ;
+}
+.butn-2{
+    color: #fff;
+}
+.butn-1:hover{
+    color: #fff;
+}
+.butn-2:hover{
+    color:cornflowerblue;
+}
